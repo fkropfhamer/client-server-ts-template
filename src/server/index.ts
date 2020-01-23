@@ -1,7 +1,7 @@
 import Server from "./server";
 
-function main() {
-    const server = new Server();
+function main(): void {
+    new Server();
 }
 
 main();
