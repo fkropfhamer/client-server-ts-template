@@ -1,3 +1,3 @@
 export default abstract class Config {
-    public static PORT: number = 8080; 
+    public static PORT = 8080; 
 }

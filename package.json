@@ -10,7 +10,8 @@
     "build:server": "webpack --config ./webpack.config.server.js --mode production",
     "build:client": "webpack --mode production",
     "build": "npm run build:server && npm run build:client",
-    "start": "npm run build && node build/index.js"
+    "start": "npm run build && node build/index.js",
+    "lint": "eslint . -c .eslintrc.js --ext js,ts,json"
   },
   "author": "fabi",
   "license": "ISC",
